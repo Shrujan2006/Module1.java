@@ -1,5 +1,5 @@
 import java.util.*;
-import javax.sound.sampled.SourceDataLine;
+
 class Array{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -23,4 +23,5 @@ class Array{
 
 
 }
+
 
