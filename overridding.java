@@ -1,4 +1,4 @@
-// Simple parent class kept for reference
+
 class overridding {
     public static void main(String[] args) {
         Doctor[] doctors = new Doctor[] {
@@ -14,8 +14,6 @@ class overridding {
     }
 }
 
-
-// Base class for the exercise
 class Doctor {
     String name;
 
@@ -23,13 +21,12 @@ class Doctor {
         this.name = name;
     }
 
-    // base implementation
+    
     void consultationFee() {
         System.out.println(name + " (General Doctor) consultation fee: Rs. 500");
     }
 }
 
-// Dentist overrides consultationFee()
 class Dentist extends Doctor {
     Dentist(String name) {
         super(name);
@@ -41,7 +38,6 @@ class Dentist extends Doctor {
     }
 }
 
-// Cardiologist overrides consultationFee()
 class Cardiologist extends Doctor {
     Cardiologist(String name) {
         super(name);
@@ -53,7 +49,6 @@ class Cardiologist extends Doctor {
     }
 }
 
-// Surgeon overrides consultationFee()
 class Surgeon extends Doctor {
     Surgeon(String name) {
         super(name);
@@ -64,6 +59,7 @@ class Surgeon extends Doctor {
         System.out.println(name + " (Surgeon) consultation fee: Rs. 2000");
     }
 }
+
 
 
     
